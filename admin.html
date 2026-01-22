@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>หลังบ้านแอดมิน - Lomnao</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay">
+    <div class="card">
+      <h1>🔐 หลังบ้านแอดมิน</h1>
+
+      <input type="text" id="adminUser" placeholder="ชื่อผู้ใช้แอดมิน" />
+      <input type="password" id="adminPass" placeholder="รหัสผ่าน" />
+      <button class="btn btn-login" onclick="login()">เข้าสู่ระบบ</button>
+
+      <div id="adminPanel" style="display:none;">
+        <h2>➕ เติมพ้อยให้ลูกค้า</h2>
+        <input type="text" id="targetUser" placeholder="ชื่อผู้ใช้ลูกค้า" />
+        <input type="number" id="addPoints" placeholder="จำนวนพ้อย" />
+        <button class="btn btn-topup" onclick="addUserPoints()">เติมพ้อย</button>
+
+        <h3>📋 รายชื่อผู้ใช้</h3>
+        <pre id="userList"></pre>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

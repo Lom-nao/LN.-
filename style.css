@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("https://cdn.phototourl.com/uploads/2026-01-22-dd520a9e-23ba-4dda-90dc-d44ef59bdfe0.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.65);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 420px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 12px 0;
+  color: #00ffcc;
+}
+
+.points-box {
+  background: rgba(255,255,255,0.1);
+  padding: 12px;
+  border-radius: 10px;
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-random {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #ffffff;
+}
+
+.btn-topup {
+  background: linear-gradient(135deg, #ffcc00, #ff9900);
+  color: #000000;
+}
+
+.btn-contact {
+  background: linear-gradient(135deg, #00ff99, #00cc66);
+  color: #000000;
+}
+
+.btn-login {
+  background: linear-gradient(135deg, #ff4b4b, #c70000);
+  color: #ffffff;
+}
